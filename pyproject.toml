@@ -5,6 +5,7 @@ version = "0.0.8"
 description = "PyCG - Practical Python Call Graphs"
 readme = "README.md"
 requires-python = ">=3.4"
+dependencies = ["setuptools >= 69.1.0"]
 
 licence = {file = "LICENCE"}
 authors = [{name = "Vitalis Salis", email = "vitsalis@gmail.com"}]
@@ -28,7 +29,7 @@ build-backend = "hatchling.build"
 
 [tool.black]
 line-length = 88
-target_version = ['py38', 'py39', 'py310']
+target_version = ['py38', 'py39', 'py310', 'py311']
 preview = true
 exclude = '''
 /(
